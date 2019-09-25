@@ -1,0 +1,11 @@
+[package]
+name = "clock-firmware"
+version = "0.1.0"
+authors = ["Nicolas Goy <kuon@goyman.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+chrono = "0.4"
