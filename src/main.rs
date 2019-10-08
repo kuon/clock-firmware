@@ -26,7 +26,10 @@ fn main() {
         let month = now.month() as u8;
         let sec = now.second();
 
-        if (55..60).contains(&sec) | (30..35).contains(&sec) {
+        if (19..20).contains(&sec)
+            | (39..40).contains(&sec)
+            | (59..60).contains(&sec)
+        {
             leds.set(
                 left_digit(day),
                 right_digit(day) | leds::DOT,
